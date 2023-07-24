@@ -1,0 +1,372 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: inherit;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+.topheader {
+  display: flex;
+  width: 100%;
+  background: #363636;
+  height: 45px;
+  flex-direction: column;
+}
+.mainheader {
+  display: flex;
+  align-items: center;
+  padding: 0 80px;
+  justify-content: space-between;
+  width: auto;
+  height: 100%;
+}
+a {
+  display: flex;
+  text-decoration: none;
+  color: black;
+}
+.rightheader {
+  display: flex;
+  justify-content: end;
+  width: auto;
+  height: 100%;
+  align-items: center;
+}
+.leftheader {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: auto;
+  height: 100%;
+}
+.imagelogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+.searchmenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.iconmenu {
+  display: flex;
+  justify-content: end;
+  margin-right: 40px;
+  cursor: pointer;
+}
+.menubar {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: start;
+  padding: 0px 5px;
+  margin: 5px 40px;
+  align-items: center;
+}
+.custom-select {
+  background: transparent;
+  padding: 0 5px;
+  font-family: inherit;
+  font-size: inherit;
+}
+.clear span {
+  margin: 10px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  flex-wrap: wrap;
+  margin: 30px;
+  padding: 15px;
+  font-size: 15px;
+  flex-direction: column;
+}
+.row .item {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  width: 100%;
+  /* float: left; */
+  margin: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+.row img {
+  max-width: 90%;
+  max-height: 100%;
+  height: auto;
+}
+.btnall {
+  height: 35px;
+  display: flex;
+  line-height: 35px;
+  background: #ed1c24;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  border: solid 1px #ed1c24;
+  padding: 0 30px;
+  align-items: center;
+}
+.btn .span {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding-top: 60px;
+  width: 100%;
+  font-size: small;
+}
+.leftfooter {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+.twofooter {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding-right: 50px;
+}
+.centerfooter {
+  display: flex;
+  padding-bottom: 17px;
+  justify-content: center;
+  flex-direction: column;
+  padding-right: 250px;
+}
+.rightfooter {
+  display: flex;
+  padding-bottom: 17px;
+  justify-content: end;
+  flex-direction: column;
+}
+.rowfooter {
+  display: flex;
+  justify-content: space-between;
+}
+.containerfooter {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.topfoter {
+  padding-bottom: 30px;
+}
+
+.top-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.top-footer .col {
+  flex: 1;
+}
+
+.top-footer h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.social {
+  display: flex;
+  flex-direction: row;
+}
+
+.social a {
+  color: #ffffff;
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+.toggle-mn li {
+  list-style: none;
+}
+
+.toggle-mn li a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 5px 0;
+}
+
+.fot_contact_item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.fot_contact_item span {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.fot_copyright {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.backtop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #000000;
+  color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.backtop i {
+  vertical-align: middle;
+}
+.fot_copyright {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+p {
+  text-align: start;
+  font-weight: bold;
+}
+h3 {
+  text-align: start;
+}
+.btn-card > button > p {
+  height: 35px;
+  display: flex;
+  line-height: 35px;
+  background: #ed1c24;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  border: solid 1px #ed1c24;
+  padding: 0 30px;
+  align-items: center;
+}
+.btn-card > button {
+  border: none;
+  cursor: pointer;
+}
+.menubar span {
+  margin-right: 15px;
+}
+.rightheader > a {
+  margin-right: 10px;
+  color: #cccccc;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+.leftheader > a {
+  line-height: 40px;
+  color: #cccccc;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+.leftheader > span {
+  line-height: 40px;
+  color: #cccccc;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+.carticon {
+  margin-left: 20px;
+}
+
+#dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+  padding: 20px;
+  background-color: 	#D3D3D3;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border: none;
+}
+.exit {
+  text-align: right;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+#dialog > p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.btn-confirm > button{
+    border: none;
+}
+.itembill {
+    margin-bottom: 10px; /* Giãn cách giữa các item */
+    display: grid;
+    gap: 10px;
+}
+
+.itembill span {
+  display: inline-block; /* Hiển thị trên cùng 1 dòng và cách nhau bằng khoảng trắng */
+  margin-right: 10px; /* Khoảng cách giữa các span */
+}
+
+.itembill button {
+  padding: 10px;
+  margin: 7px; /* Khoảng cách giữa các nút và các span */
+}
+hr {
+  border: none;
+  border-top: 2px solid black;
+  margin: 20px 0;
+}
+
+.footerdia {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buy,
+.cancel {
+  padding: 8px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.buy:hover,
+.cancel:hover {
+  background-color: #0056b3;
+}
+.money > .text-money > p{
+  text-align: center;
+  font-weight: bold;
+}
+.itembill > button{
+  width: 100px; /* Đặt độ rộng khung ngang ngắn cho nút Update */
+}
